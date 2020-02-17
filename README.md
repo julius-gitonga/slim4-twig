@@ -1,4 +1,4 @@
-#Slim4 with Twig
+# Slim4 with Twig
 
 This is a starter project for Slim 4 that includes [PHP-DI][1], [Monolog][2] and [Twig][3].
 
