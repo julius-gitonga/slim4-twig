@@ -1,0 +1,37 @@
+{
+    "name": "sireesh/slim4-twig",
+    "description": "Slim 4 project With Twig Framework",
+    "keywords": [
+        "slim", "slim framwork", "psr7", "Twig"
+    ],
+    "homepage": "http://github.com/sireesh/slim4-twig.git",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sireesh Beemineni",
+            "email": "sireeshnaidu@gmail.com",
+            "homepage": "https://about.me/sireeshnaidu"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.0",
+        "php-di/php-di": "^6.0",
+        "slim/psr7": "^0.5.0",
+        "slim/slim": "^4.2",
+        "twig/twig": "^3.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
