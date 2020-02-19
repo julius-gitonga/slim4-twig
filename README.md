@@ -15,4 +15,4 @@ Test using the PHP built-in server:
 
     php -S 0.0.0.0:8888 -t public/
  
- Navigate to http://localhost:8888
+Navigate to http://localhost:8888
