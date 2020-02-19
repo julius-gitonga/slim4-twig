@@ -2,7 +2,7 @@
     "name": "sireesh/slim4-twig",
     "description": "Slim 4 project With Twig Framework",
     "keywords": [
-        "slim", "slim framwork", "psr7", "Twig"
+        "slim", "slim framework", "slim4", "psr7", "Twig"
     ],
     "homepage": "http://github.com/sireesh/slim4-twig.git",
     "type": "project",
