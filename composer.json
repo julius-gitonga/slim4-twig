@@ -4,7 +4,8 @@
     "keywords": [
         "slim", "slim framework", "slim4", "psr7", "Twig"
     ],
-    "homepage": "http://github.com/sireesh/slim4-twig.git",
+    "version": "1.0.0",
+    "homepage": "http://github.com/sireesh/slim4-twig",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -23,13 +24,18 @@
             "App\\": "src"
         }
     },
-    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sireesh/slim4-twig"
+        }
+    ],
     "require": {
         "monolog/monolog": "^2.0",
         "php-di/php-di": "^6.0",
         "slim/psr7": "^0.5.0",
         "slim/slim": "^4.2",
         "twig/twig": "^3.0",
-        "sireesh/slim4-twig": "dev-master@dev"
+        "sireesh/slim4-twig": "dev-master"
     }
 }
